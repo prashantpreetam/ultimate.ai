@@ -8,7 +8,7 @@
 ## Intructions
 - cd into base directory
 - npm install
-- npm run migration
+- npm run migrate
 - npm run test
 - npm run dev
 - Use Postman to import following curl or use CLI
