@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7",
+    "nodemon": "^2.0.13"
+  },
+  "name": "utltimate-ai",
+  "version": "0.0.1",
+  "description": "Chat bot intent response API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon index.js",
+    "test": "jest",
+    "migrate": "mongoimport --db ultimate --collection response --file db.json --jsonArray"
+  },
+  "author": "Prashant Preetam",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.2"
+  }
+}

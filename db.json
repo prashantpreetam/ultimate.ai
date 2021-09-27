@@ -1,0 +1,8 @@
+[{"intent": "Greeting", "description": "The visitor says hello.", "reply": "Hello :) How can I help you?"},
+{"intent": "Goodbye", "description": "The visitor says goodbye.", "reply": "Goodbye, have a nice day!"},
+{"intent": "Affirmative", "description": "The visitor confirms that something is true / correct.", "reply": "Great!"},
+{"intent": "Negative", "description": "The visitor confirms that they don't need help / something is not true or similar.", "reply": "Alright, please let me know if I can help you with anything else!"},
+{"intent": "Thank you", "description": "The visitor says thank you.", "reply": "It was a pleasure to be of help :)"},
+{"intent": "Are you a bot?", "description": "The visitor wants to know if they are talking to a bot or a human.", "reply": "I'm an AI bot, and I'm here to help you with your questions."},
+{"intent": "I want to speak with a human", "description": "The visitor wants to speak to a human agent.", "reply": "Let me transfer you to the first available agent."},
+{"intent": "Login Problems", "description": "The visitor has trouble logging in.", "reply": "Oh no! Please give me your email and I will fix it."}]
